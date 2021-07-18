@@ -133,13 +133,13 @@ void solucao(float *x, float *fx,float *Fx, int n, int flag)
     * simplifica o entendimento da solucao.
     */
 
-    float numeradorA,numumeradorB,denominador;
+    float numeradorA,numeradorB,denominador;
     numeradorA = (g1F1*g2g2) - (g1g2*g2F1);
-    numumeradorB = (g1g1*g2F1) - (g1F1*g1g2);
+    numeradorB = (g1g1*g2F1) - (g1F1*g1g2);
     denominador = (g1g1*g2g2) - (g1g2*g1g2);
     
     float a = numeradorA/denominador;
-    float b = numumeradorB/denominador;
+    float b = numeradorB/denominador;
     
     /*
     * Valores de g(x)
